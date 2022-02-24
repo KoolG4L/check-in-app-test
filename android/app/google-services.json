@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "31034399170",
+    "project_id": "puninar-test-d3303",
+    "storage_bucket": "puninar-test-d3303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31034399170:android:13056d3259768a73db5e5b",
+        "android_client_info": {
+          "package_name": "com.example.app_puninar_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31034399170-tpgee3qbpbvg8mq2ali5rdf49dtfiol1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuNraRPd3mRQCJ-UCsbkOQlzoC-fOPC1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31034399170-tpgee3qbpbvg8mq2ali5rdf49dtfiol1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

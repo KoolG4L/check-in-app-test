@@ -1,0 +1,71 @@
+### Check Check In
+GET http://localhost:8080/api/validateCheckIn
+Content-Type: application/json
+Accept: application/json
+
+### Check Check In
+GET http://localhost:8080/api/checkIn/check
+Content-Type: application/json
+Accept: application/json
+
+### Create New Check In
+POST http://192.168.137.1:8080/api/checkIn/create
+Content-Type: application/json
+Accept: application/json
+
+{
+    "latitude": 50.0,
+    "longitude": 2450,
+    "datetime": "2022-02-23",
+    "imageUrl": "http://test123.jpg"
+}
+
+### Update Check In
+PUT http://localhost:8080/api/checkIn/update/20
+Content-Type: application/json
+Accept: application/json
+
+{
+    "latitude": 50.0,
+    "longitude": 5555,
+    "datetime": "2022-02-22",
+    "imageUrl": "http://wayae.jpg"
+}
+
+### Check Check Out
+GET http://localhost:8080/api/checkOut/check
+Content-Type: application/json
+Accept: application/json
+
+### Create New Check Out
+POST http://192.168.137.1:8080/api/checkOut/create
+Content-Type: application/json
+Accept: application/json
+
+{
+    "latitude": 225.0,
+    "longitude": 200.0,
+    "datetime": "2022-02-22",
+    "imageUrl": "http://unginga.jpg"
+}
+
+### Update Check Out
+PUT http://localhost:8080/api/checkOut/update/4
+Content-Type: application/json
+Accept: application/json
+
+{
+    "latitude": 50.0,
+    "longitude": 5555,
+    "datetime": "2022-02-22",
+    "imageUrl": "http://wayae.jpg"
+}
+
+### Find
+POST http://192.168.137.1:8080/api/history
+Content-Type: application/json
+Accept: application/json
+
+{
+   "datetime": "2022-02-24 04:09:45.997204"
+}
